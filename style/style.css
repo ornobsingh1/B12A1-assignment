@@ -172,3 +172,36 @@
   font-size: 16px;
   font-weight: bold;
 }
+
+/* Footer */
+
+.footer {
+  width: 530px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.footer-title {
+  font-size: 80px;
+  font-weight: bolder;
+  color: #4e47ff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer-description {
+  font-size: 17px;
+  color: gray;
+  text-align: center;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+.list-item {
+  list-style: none;
+}
+.list-item a {
+  text-decoration: none;
+  color: gray;
+}
