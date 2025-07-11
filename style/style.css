@@ -39,6 +39,10 @@
   color: #fff;
   font-size: 16px;
   font-weight: bold;
+  cursor: pointer;
+}
+.nav-btn:hover {
+  background-color: tomato;
 }
 
 /* Banner Section */
@@ -64,6 +68,10 @@
   font-size: 16px;
   font-weight: bold;
   margin-top: 25px;
+  cursor: pointer;
+}
+.banner-btn:hover {
+  background-color: tomato;
 }
 
 /* Main */
@@ -100,6 +108,10 @@
   font-size: 16px;
   font-weight: bold;
   margin-top: 20px;
+  cursor: pointer;
+}
+.action-btn:hover {
+  background-color: tomato;
 }
 .action-img {
   border-radius: 40px;
@@ -131,6 +143,55 @@
   color: #4e47ff;
 }
 
+/* Users’ Feedback Section */
+.feedback-section {
+  max-width: 1080px;
+  margin: 0px auto;
+  padding: 100px 0;
+}
+.feedback-title {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.feedback-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.feedback-contant {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #f2eded;
+  border-radius: 15px;
+}
+.feedback-star {
+  display: flex;
+  margin-bottom: 20px;
+}
+.feedback-star-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.feedback-star-subtitle {
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 15px;
+}
+.avater-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.avater-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 /* Let’s Get In Touch Section */
 
 .contact-container {
@@ -159,7 +220,7 @@
 }
 .form-textarea {
   font-size: 17px;
-  padding: 0 10px;
+  padding: 10px;
   margin-top: 8px;
   margin-bottom: 20px;
 }
@@ -171,6 +232,10 @@
   color: #fff;
   font-size: 16px;
   font-weight: bold;
+  cursor: pointer;
+}
+.form-btn:hover {
+  background-color: tomato;
 }
 
 /* Footer */
@@ -204,4 +269,7 @@
 .list-item a {
   text-decoration: none;
   color: gray;
+}
+.list-item a:hover {
+  color: black;
 }
